@@ -94,11 +94,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp &nm_eq  &kp &nm_1     &kp &nm_2         &kp &nm_3    &kp &nm_4     &kp &nm_5  &tog 1                                                   &mo 3        &kp &nm_6    &kp &nm_7      &kp &nm_8        &kp &nm_9    &kp &nm_0    &kp MINUS
-&kp TAB     &kp Q         &kp W             &kp E         &kp R        &kp T      &none                                                    &none        &kp Y        &kp U          &kp I            &kp O        &kp P        &kp RIGHT_BRACKET
-&kp ESC     &kp A         &kp S             &kp D         &kp F        &kp G      &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none        &kp H        &kp J          &kp K            &kp L        &kp SEMI     &kp BACKSLASH
-&kp LSHFT   &kp Z         &kp X             &kp C         &kp V        &kp B                           &kp HOME      &kp PG_UP                          &kp N        &kp M          &kp COMMA        &kp DOT      &kp FSLH     &kp RSHFT
-&mo 2       &kp GRAVE     &kp LESS_THAN     &kp LEFT      &kp RIGHT               &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                 &kp DOWN       &kp UP_ARROW     &kp LBKT     &kp RBKT     &mo 2
+&nm_eq     &nm_1      &nm_2          &nm_3     &nm_4        &nm_5      &tog 1                                                   &mo 3        &nm_6        &nm_7          &nm_8            &nm_9        &nm_0      &kp MINUS
+&kp TAB    &kp Q      &kp W          &kp E     &kp R        &kp T      &none                                                    &none        &kp Y        &kp U          &kp I            &kp O        &kp P      &kp RIGHT_BRACKET
+&kp ESC    &kp A      &kp S          &kp D     &kp F        &kp G      &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none        &kp H        &kp J          &kp K            &kp L        &kp SEMI   &kp BACKSLASH
+&kp LSHFT  &kp Z      &kp X          &kp C     &kp V        &kp B                           &kp HOME      &kp PG_UP                          &kp N        &kp M          &kp COMMA        &kp DOT      &kp FSLH   &kp RSHFT
+&mo 2      &kp GRAVE  &kp LESS_THAN  &kp LEFT  &kp RIGHT               &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                 &kp DOWN       &kp UP_ARROW     &kp LBKT     &kp RBKT   &mo 2
             >;
         };
 
