@@ -1,4 +1,4 @@
-#include <key_pt.h>
+#include <keys_pt.h>
 #include <dt-bindings/zmk/stp.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
