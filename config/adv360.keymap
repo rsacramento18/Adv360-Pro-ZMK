@@ -20,6 +20,72 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+        nm_eq: nm_eq {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PT_EXCLAMATION>, <&kp PT_AT_SIGN>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        nm_1: nm_1 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PT_PLUS>,     <&kp PT_N1>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        nm_2: nm_2 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PT_LBKT>,     <&kp PT_N2>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        nm_3: nm_3 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PT_LBRC>,     <&kp PT_N3>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        nm_4: nm_4 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PT_LPAR>,     <&kp PT_N4>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        nm_5: nm_5 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PT_AMPS>,     <&kp PT_N5>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        nm_6: nm_6 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PT_EQUAL>,    <&kp PT_N6>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        nm_7: nm_7 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PT_RPAR>,     <&kp PT_N7>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        nm_8: nm_8 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PT_RBRC>,     <&kp PT_N8>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        nm_9: nm_9 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PT_RBKT>,     <&kp PT_N9>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        nm_0: nm_0 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PT_ASTERISK>, <&kp PT_N0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
@@ -28,11 +94,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2         &kp N3    &kp N4     &kp N5  &tog 1                                                   &mo 3      &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W          &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp U     &kp I         &kp O     &kp P     &kp RIGHT_BRACKET
-&kp ESC    &kp A      &kp S          &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp J     &kp K         &kp L     &kp SEMI  &kp BACKSLASH
-&kp LSHFT  &kp Z      &kp X          &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M     &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp LESS_THAN  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 2
+&kp nm_eq  &kp nm_1     &kp nm_2         &kp nm_3    &kp nm_4     &kp nm_5  &tog 1                                                   &mo 3        &kp nm_6    &kp nm_7      &kp nm_8        &kp nm_9    &kp nm_0    &kp MINUS
+&kp TAB    &kp Q        &kp W            &kp E       &kp R        &kp T     &none                                                    &none        &kp Y       &kp U         &kp I           &kp O       &kp P       &kp RIGHT_BRACKET
+&kp ESC    &kp A        &kp S            &kp D       &kp F        &kp G     &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none        &kp H       &kp J         &kp K           &kp L       &kp SEMI    &kp BACKSLASH
+&kp LSHFT  &kp Z        &kp X            &kp C       &kp V        &kp B                          &kp HOME      &kp PG_UP                          &kp N       &kp M         &kp COMMA       &kp DOT     &kp FSLH    &kp RSHFT
+&mo 2      &kp GRAVE    &kp LESS_THAN    &kp LEFT    &kp RIGHT              &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                &kp DOWN      &kp UP_ARROW    &kp LBKT    &kp RBKT    &mo 2
             >;
         };
 
