@@ -160,11 +160,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4                             &kp F5                              &kp F6        &tog 1                                            &mo 3   &kp F7          &kp F8          &kp F9        &kp F10          &kp F11  &kp F12
-&trans  &trans  &trans  &kp PT_FEMININE_ORDINAL_INDICATOR  &kp PT_MASCULINE_ORDINAL_INDICATOR  &kp PT_POUND  &none                                             &none   &trans          &trans          &trans        &trans           &trans   &trans
-&trans  &trans  &trans  &mkp MB4                           &mkp MB5                            &kp PT_EURO   &none      &mkp MCLK  &trans      &trans  &trans  &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans   &trans
-&trans  &trans  &trans  &trans                             &mo 4                               &trans                              &trans      &trans                  &trans          &trans          &trans        &trans           &trans   &trans
-&trans  &trans  &trans  &msc SCRL_LEFT                     &msc SCRL_RIGHT                                   &mkp LCLK  &mkp RCLK  &trans      &trans  &trans  &trans                  &msc SCRL_DOWN  &msc SCRL_UP  &trans           &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4                             &kp F5                              &kp F6        &tog 1                                                        &mo 3             &kp F7          &kp F8          &kp F9        &kp F10          &kp F11  &kp F12
+&trans  &trans  &trans  &kp PT_FEMININE_ORDINAL_INDICATOR  &kp PT_MASCULINE_ORDINAL_INDICATOR  &kp PT_POUND  &none                                                         &none             &trans          &trans          &trans        &trans           &trans   &trans
+&trans  &trans  &trans  &mkp MB4                           &mkp MB5                            &kp PT_EURO   &none      &mkp MCLK  &trans      &trans          &trans      &none             &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans   &trans
+&trans  &trans  &trans  &trans                             &mo 4                               &trans                              &trans      &trans                                        &trans          &trans          &trans        &trans           &trans   &trans
+&trans  &trans  &trans  &msc SCRL_LEFT                     &msc SCRL_RIGHT                                   &mkp LCLK  &mkp RCLK  &trans      &kp C_PREVIOUS  &kp C_NEXT  &kp C_PLAY_PAUSE                  &msc SCRL_DOWN  &msc SCRL_UP  &trans           &trans   &trans
             >;
         };
 
